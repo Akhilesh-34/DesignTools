@@ -1,0 +1,40 @@
+.shadow-workspace {
+  display: flex;
+  gap: 32px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.shadow-preview-container {
+  background-color: var(--background-color);
+  background-image: none;
+  min-height: 400px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shadow-box {
+  width: 250px;
+  height: 250px;
+  background-color: var(--surface-color);
+  border-radius: var(--radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: var(--muted-color);
+  font-size: 1.5rem;
+}
+
+.picker-container-small .react-colorful {
+  width: 100% !important;
+  height: 150px !important;
+}
+
+@media (max-width: 768px) {
+  .shadow-workspace {
+    flex-direction: column;
+  }
+}
