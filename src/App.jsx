@@ -82,10 +82,10 @@ function AppContent() {
                   boxShadow: 'var(--shadow-lg, 0 10px 25px rgba(0,0,0,0.1))', 
                   zIndex: 50 
                 }}>
-                  <a href="https://pdf-tools.yourdomain.com" className="nav-dropdown-item" style={{ justifyContent: 'flex-start' }}>PDF Tools</a>
-                  <a href="https://image-tools.yourdomain.com" className="nav-dropdown-item" style={{ justifyContent: 'flex-start' }}>Image Tools</a>
-                  <a href="https://career-tools.yourdomain.com" className="nav-dropdown-item" style={{ justifyContent: 'flex-start' }}>Career Tools</a>
-                  <a href="https://timepass-playground.yourdomain.com" className="nav-dropdown-item" style={{ justifyContent: 'flex-start' }}>Playground</a>
+                  <a href="https://pdf-tools-rose.vercel.app" className="nav-dropdown-item" style={{ justifyContent: 'flex-start' }}>PDF Tools</a>
+                  <a href="https://image-tools-mauve.vercel.app" className="nav-dropdown-item" style={{ justifyContent: 'flex-start' }}>Image Tools</a>
+                  <a href="https://career-tools-phi.vercel.app" className="nav-dropdown-item" style={{ justifyContent: 'flex-start' }}>Career Tools</a>
+                  <a href="https://playground-tools-seven.vercel.app" className="nav-dropdown-item" style={{ justifyContent: 'flex-start' }}>Playground</a>
                 </div>
               )}
             </div>
